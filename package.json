@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "0.0.0",
+  "homepage": "http://pudurvenu.github.io/react-project-1",
+  "private": true,
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "react-scripts": "latest"
+  }
+}
